@@ -1,0 +1,69 @@
+body
+{
+  background-color: #374045;
+  font-family: 'Sofia', cursive;
+  color: #96bb7c;
+}
+.ics
+{
+  height: 100px;
+  width: 200px;
+  color: yellow;
+}
+.square
+{
+  height: 200px;
+  width:200px;
+  background: #58391c;
+  margin: auto;
+  border-radius: 15px;
+}
+.circle-row
+{
+  padding: 2% 14%;
+}
+.cent{
+  padding: 10% 7%;
+}
+.circle
+{
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 2% 5%;
+}
+.mid
+{
+  visibility: hidden;
+}
+.head1
+{
+  font-size: 5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.big-square
+{
+    text-align: center;
+    padding: 4% 30%;
+}
+.hd1
+{
+  text-align: center;
+  padding: 2% 30%;
+}
+.hd4
+{
+  padding: 4% 0;
+}
+.btn1
+{
+  margin: 0% 43% 4%;
+  height: 50px;
+  width: 200px;
+}
+.btn1:hover
+{
+  background-color: #00587a;
+}
