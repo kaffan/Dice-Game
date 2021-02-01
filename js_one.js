@@ -91,6 +91,17 @@ function myFunction1(a)
     }
     break;
     case 6:
+      for(var i=0;i<9;i++)
+    {
+      if(i===0 || i===2 || i===3 || i===5 || i===6 || i===8)
+      {
+        c[i].style.visibility = "visible";
+      }
+      else
+      {
+        c[i].style.visibility = "hidden";
+      }
+    }
     break;
   }
 }
@@ -165,6 +176,17 @@ function myFunction2(b)
     }
     break;
     case 6:
+      for(var i=9;i<18;i++)
+    {
+      if(i===9 || i===11 || i===12 || i===14 || i===15 || i===17)
+      {
+        c[i].style.visibility = "visible";
+      }
+      else
+      {
+        c[i].style.visibility = "hidden";
+      }
+    }
     break;
   }
 }
